@@ -1,6 +1,9 @@
 package overridedefaults;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.Map;
 
 public class HashmapWithObjAsKeys {
@@ -42,10 +45,16 @@ public class HashmapWithObjAsKeys {
 	//	o1.setRoll(25);
 		HashmapWithObjAsKeys o2 = new HashmapWithObjAsKeys(s);
 	//	o2.setRoll(56);
-		
 		m.put(o1, 101);
 		m.put(o2,5000);
 		System.out.println("value "+ m.get(o2));
+		
+		ArrayList<Integer> achu =  new ArrayList<Integer>();
+		ListIterator<Integer> it = achu.listIterator();
+
+		//it.
+		
+		
 		
 		}
 }
