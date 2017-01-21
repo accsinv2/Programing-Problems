@@ -19,7 +19,7 @@ public class IntersecctionOfThree {
 		int k=0;
 		
 		while(i<a.length && j<b.length && k<c.length){
-			if(a[i]==b[j] && b[j]==c[k]) System.out.println(a[i]);
+			//if(a[i]==b[j] && b[j]==c[k]) System.out.println(a[i]);
 		    if (a[i]<b[j] ) i++; // i is smaller than j
 		    else  if (b[j]<c[k])j++; // j is smaller than k
 		    else k++; //k is the smallest
