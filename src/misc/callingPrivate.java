@@ -13,7 +13,7 @@ public class callingPrivate {
         Field type = Field.class.getDeclaredField("type");
         type.setAccessible(true);
         type.set(field, String.class);
-        field.set(instance, "Vivek");
+        field.set(instance, "V");
        // instance.getClass().getDeclaredField("aCharacter").setAccessible(true);
         System.out.println(instance.aCharacter);
         System.out.println(copy.aCharacter);
